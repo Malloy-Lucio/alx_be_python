@@ -1,4 +1,4 @@
-prompt= input("what's the weather like today? (sunny/rainy/cold): ")
+prompt= input("what's the weather like today? (sunny/rainy/cold): ").lower()
 if prompt == "sunny":
     print("Wear a t-shirt and sunglasses")
 elif prompt == "rainy":
